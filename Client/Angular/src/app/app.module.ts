@@ -7,16 +7,25 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routes.service';
 
-import { ViewsModule } from './views/views.module';
 import { SharedModule } from './shared/shared.module';
-import { ErrorModule } from './views/errors/error.module';
+
 
 // main layout
 import { NavigationModule } from './main-layout/navigation/navigation.module';
+import { FstDashboardComponent } from './views/fst-dashboard/fst-dashboard.component';
+import { FstServicesComponent } from './views/fst-services/fst-services.component';
+import { FooterComponent } from './main-layout/footer/footer.component';
+import { FstNeighborsComponent } from './views/fst-neighbors/fst-neighbors.component';
+import { FstVillageComponent } from './views/fst-village/fst-village.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FstDashboardComponent,
+    FstServicesComponent,
+    FooterComponent,
+    FstNeighborsComponent,
+    FstVillageComponent
   ],
   imports: [
     AgmCoreModule.forRoot({
@@ -29,9 +38,7 @@ import { NavigationModule } from './main-layout/navigation/navigation.module';
     RouterModule,
     FormsModule,
     SharedModule,
-    ViewsModule,
-    ErrorModule,
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
