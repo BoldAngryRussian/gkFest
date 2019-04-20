@@ -1,0 +1,70 @@
+<!--Grid row-->
+<div class="row wow fadeIn mt-5">
+
+      <!--Grid column-->
+  <div class="col-md-6 mb-4">
+        <div class="card">
+
+            <div class="card-header">Расходы на электроэнергию</div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <div style="display: block">
+                <canvas mdbChart [chartType]="chart1Type" [datasets]="chartDatasets" [labels]="chartLabels" [colors]="chartColors" [options]="chartOptions"
+                  [legend]="true">
+                </canvas>
+              </div>
+            </div>
+        </div>
+  </div>
+
+    <!--Grid column-->
+    <div class="col-md-6 mb-2">
+
+        <!--Card-->
+        <div class="card">
+    
+          <!-- Card header -->
+          <div class="card-header">Оплата по месяцам</div>
+    
+          <!--Card content-->
+          <div class="card-body">
+    
+            <div style="display: block">
+              <canvas mdbChart [chartType]="chart3Type" [datasets]="chartDatasets" [labels]="chartLabels" [colors]="chartColors" [options]="chartOptions"
+                [legend]="true">
+              </canvas>
+            </div>
+          </div>
+    
+        </div>
+        <!--/.Card-->
+    
+    </div>
+
+</div>
+
+<div class="row wow fadeIn mt-5">
+    <div class="col-md-4 mb-8">
+        <mdb-card class="text-center">
+            <mdb-card-header class="success-color white-text">
+              <h4>Платежка</h4>
+            </mdb-card-header>
+            <mdb-card-body>
+              <mdb-card-title>
+                <h4>Коммунальные услуги</h4>
+              </mdb-card-title>
+              <mdb-card-text>Доступна к оплате платежка за февраль. К оплате представлена только вода. Электричество будем платить в следующем месяце</mdb-card-text>
+              <a mdbBtn color="success" size="sm" class="waves-light" mdbWavesEffect>Получить</a>
+            </mdb-card-body>
+            <mdb-card-footer class="text-muted success-color white-text">
+              <p class="mb-0">2 дня назад</p>
+            </mdb-card-footer>
+          </mdb-card>
+    </div>
+</div>
+
+
+
+
