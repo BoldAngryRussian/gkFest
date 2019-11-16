@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="528dc0a9-8d26-4674-974b-77b1cf2de241" name="Default Changelist" comment="" />
+    <list default="true" id="528dc0a9-8d26-4674-974b-77b1cf2de241" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/eurika-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-service/target/eurika-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-service/target/eurika-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,8 +46,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ToolWindowMaven.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-service/src/main/resources/configurations" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="last_opened_file_path" value="C:/Program Files/SmartGit/git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.eurika-service">
     <configuration name="config-service" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -65,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eurika-service" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="festival.EurikaStarter" />
+      <module name="eurika-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.config-service" />
+      <item itemvalue="Application.eurika-service" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
