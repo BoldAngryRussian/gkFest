@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528dc0a9-8d26-4674-974b-77b1cf2de241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eurika-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/configurations/eurika-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/configurations/eurika-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurika-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurika-service/target/eurika-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-service/target/eurika-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-service/target/eurika-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-service/target/eurika-service.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,6 +44,7 @@
   <component name="ProjectId" id="1ThAf8dh5Uu0WFxXNmqPulQAEwV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ToolWindowMaven.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/SmartGit/git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
