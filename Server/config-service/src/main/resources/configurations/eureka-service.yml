@@ -1,0 +1,10 @@
+eureka:
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: false
+
+server:
+  port: 7070
