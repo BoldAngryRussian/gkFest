@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528dc0a9-8d26-4674-974b-77b1cf2de241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/festival/GatewayStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/controller/FestivalRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/festival/CitizenStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/model/Watermeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/repository/WatermeterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/service/WatermeterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/service/WatermeterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/ddl/T_WATERMETER.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/liquibase.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/configurations/auth-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/configurations/auth-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/configurations/citizen-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/configurations/citizen-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/configurations/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,11 +58,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ToolWindowMaven.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/citizen-service/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources" />
       <recent name="C:\work\Festival\Server\gateway-service\src\main\resources" />
       <recent name="C:\work\Festival\Server\config-service\src\main\resources\configurations" />
     </key>
@@ -71,7 +83,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.gateway-service">
+  <component name="RunManager" selected="Application.citizen-service">
+    <configuration name="citizen-service" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="festival.CitizenStarter" />
+      <module name="citizen-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="config-service" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,6 +124,7 @@
       <item itemvalue="Application.config-service" />
       <item itemvalue="Application.eurika-service" />
       <item itemvalue="Application.gateway-service" />
+      <item itemvalue="Application.citizen-service" />
     </list>
   </component>
   <component name="SvnConfiguration">

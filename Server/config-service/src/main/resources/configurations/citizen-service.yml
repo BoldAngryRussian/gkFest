@@ -5,3 +5,33 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7070/eureka/
+
+spring:
+  datasource:
+    url:  jdbc:postgresql://localhost:5432/postgres?currentSchema=LIQRES
+    username: postgres
+    password: password
+    driver-class-name:  org.postgres.Driver
+
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation:  true
+      default_schema: liqres
+      ddl-auto: none
+
+## Logging
+logging:
+  level:
+    org:
+      springframework:
+        web:  DEBUG
+  ru:
+    fest: DEBUG
+  file: c:/Temp/app.log
+  pattern:
+    file: %d{yyyy-MM-dd HH:mm:ss} ${HOSTNAME} {%thread} {%M}
