@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528dc0a9-8d26-4674-974b-77b1cf2de241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/controller/FestivalRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/festival/CitizenStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/model/Watermeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/repository/WatermeterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/service/WatermeterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/java/service/WatermeterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/ddl/T_WATERMETER.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/liquibase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/citizens/ddl/T_CITIZENS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/citizens/release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/house/ddl/T_HOUSE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/house/release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/living/ddl/T_HOUSE2LIVINGS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/living/release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/owners/ddl/T_HOUSE2OWNERS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/owners/release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/citizen-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/configurations/citizen-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/configurations/citizen-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/comment_bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/ddl/T_WATERMETER.sql" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/ddl/T_WATERMETER.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/watermeter/release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/citizen-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/citizen-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/target/classes/configurations/citizen-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/classes/configurations/citizen-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/config-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -58,7 +64,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ToolWindowMaven.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/citizen-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/citizen-service/src/main/resources/liquibase/db/living/ddl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,9 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources" />
-      <recent name="C:\work\Festival\Server\gateway-service\src\main\resources" />
-      <recent name="C:\work\Festival\Server\config-service\src\main\resources\configurations" />
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources\liquibase\db\living\ddl" />
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources\liquibase\db\living" />
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources\liquibase\db\owners\ddl" />
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources\liquibase\db\OWNERS" />
+      <recent name="C:\work\Festival\Server\citizen-service\src\main\resources\liquibase\db\house\ddl" />
     </key>
   </component>
   <component name="RunDashboard">

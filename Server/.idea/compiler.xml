@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-service" />
-        <module name="citizen-service" />
+        <module name="eurika-service" />
         <module name="auth-service" />
         <module name="config-service" />
-        <module name="eurika-service" />
+        <module name="citizen-service" />
       </profile>
     </annotationProcessing>
   </component>

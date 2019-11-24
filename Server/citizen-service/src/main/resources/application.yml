@@ -1,16 +1,11 @@
 server:
   port: 7073
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:7070/eureka/
-
 spring:
   datasource:
     url:  jdbc:postgresql://localhost:5432/postgres?currentSchema=LIQRES
     username: postgres
-    password: password
+    password: Murka3881730@
     driver-class-name:  org.postgres.Driver
 
 
